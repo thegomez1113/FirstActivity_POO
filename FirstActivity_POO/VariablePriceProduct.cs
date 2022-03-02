@@ -9,7 +9,7 @@
 
         public override decimal ValueToPay()
         {
-            return Price * (decimal)Quantity * (1 + (decimal)Tax); ;
+            return Price * (decimal)Quantity * (1 + (decimal)Tax); 
         }
         public override string ToString()
         {

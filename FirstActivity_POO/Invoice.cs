@@ -1,19 +1,19 @@
 ﻿namespace FirstActivity_POO
 {
-    public class Invoice 
+    public class Invoice
     {
         private List<Product> _products;
 
         public Invoice()
         {
-               _products = new List<Product>();
+            _products = new List<Product>();
         }
-        public Product AddProduct(Product product) 
-        { 
+        public Product AddProduct(Product product)
+        {
             _products.Add(product);
             return product;
         }
-        public decimal ValueToPay ()
+        public decimal ValueToPay()
         {
             decimal total = 0;
             foreach (Product product in _products)
@@ -24,14 +24,14 @@
         }
         public override string ToString()
         {
-            string productsInfo="";
+            string productsInfo = "";
             foreach (Product product in _products)
             {
                 productsInfo += product.ToString() + "\n";
             }
             return $"RECEIPT \n" +
                 $"-------------------------------------------------- \n" +
-                $"{productsInfo}" + 
+                $"{productsInfo}" +
                 $"                    ============= \n" +
                 $"TOTAL: {$"              {ValueToPay():C2}",13}";
         }

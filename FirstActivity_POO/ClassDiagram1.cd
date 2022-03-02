@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FirstActivity_POO.ComposedProduct">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAgAAAAAAAAQ=</HashCode>
+      <FileName>ComposedProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="FirstActivity_POO.FixedPriceProduct">
-    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Position X="5.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FixedPriceProduct.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="FirstActivity_POO.Invoice">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAASAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="FirstActivity_POO.Product">
-    <Position X="3.25" Y="1" Width="1.5" />
+    <Position X="7.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAQAgAAAEAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Product.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="FirstActivity_POO.VariablePriceProduct">
-    <Position X="5.75" Y="2.25" Width="1.5" />
+    <Position X="8" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAQgAAAAAA=</HashCode>
       <FileName>VariablePriceProduct.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FirstActivity_POO.ComposedProduct">
-    <Position X="5.75" Y="5" Width="1.5" />
+  <Interface Name="FirstActivity_POO.IPay">
+    <Position X="9" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAQ=</HashCode>
-      <FileName>ComposedProduct.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="FirstActivity_POO.Invoice" Collapsed="true">
-    <Position X="7.75" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Invoice.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Interface Name="FirstActivity_POO.IPay" Collapsed="true">
-    <Position X="1.25" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IPay.cs</FileName>
     </TypeIdentifier>
   </Interface>
