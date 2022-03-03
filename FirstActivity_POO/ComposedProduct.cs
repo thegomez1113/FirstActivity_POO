@@ -21,20 +21,15 @@
         public override string ToString()
         {
             string TotalProducts = "";
-            for (int i = 0; i < Products.Count; i++)
+            foreach (Product product in Products)
             {
-                   if(i<TotalProducts.Length)
-                   {
-                    TotalProducts += Products[i].Description+".";
-                   }
-                   else 
-                   { TotalProducts += Products[i].Description+",";
-                }
-
+                TotalProducts += product.Description + ", ";
             }
-            return $"        Products...:{$"{TotalProducts}"}" +
+            return $"   {Id} {Description}" +
+                $"\n\tProducts...:{$" {TotalProducts}"}" +
                 $"\n\tDiscount...:{$"{Discount:P2}",13}" +
                 $"\n\tValue......:{$"{ValueToPay():C2}",13}";
+               
         }
     }
 }
